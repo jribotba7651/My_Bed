@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126F514BCE442388F518BFBF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB118597BA9CEC9CD0B2A8E6 /* SettingsView.swift */; };
+		1F4A555E83BCC39E3A5774FC /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2462001DC243A533B26BC3C /* RootTabView.swift */; };
+		28980370F3C83D576E9DAF09 /* MassageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7701FBA2AD109C8ACF62E8F /* MassageView.swift */; };
+		3C829F128C9B0C1DAD0FD87D /* BedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED520E06850B837C7408F58 /* BedController.swift */; };
+		6E4F42D28CDF69F40621007C /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396A98E4A1DD5C72047AE0B /* ControlView.swift */; };
+		7D6E868FC73DD27C4438C33E /* BridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893269B5D1067D68F40514DC /* BridgeClient.swift */; };
+		910BFF2B3BCE88474522C02F /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C026B94BC832AB0235AE083 /* ScheduleListView.swift */; };
+		A842F2C42AF745BD269E4789 /* ReverieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C18BA4B8E4BB45E011CAB /* ReverieProtocol.swift */; };
+		A9A0009CFB046D2ECA37D739 /* ScheduleRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB831408A777B143C06659 /* ScheduleRunner.swift */; };
+		BDBAB6908846FF2A789A887F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E813BBC59E2CCF981DC0E362 /* Schedule.swift */; };
+		C394C2265F7187E05A6FF845 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906099173952B2A9B277AEA8 /* BLEManager.swift */; };
+		CDDF9BD09A1039AFB658B34C /* ScheduleEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77C9177D5BA0AE2CEA0241D /* ScheduleEditView.swift */; };
+		E745BF184D9C1B807DA35E9B /* ReverieControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7944CB66A4EA2D11743EF855 /* ReverieControlApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259C18BA4B8E4BB45E011CAB /* ReverieProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverieProtocol.swift; sourceTree = "<group>"; };
+		6C026B94BC832AB0235AE083 /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		7944CB66A4EA2D11743EF855 /* ReverieControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverieControlApp.swift; sourceTree = "<group>"; };
+		893269B5D1067D68F40514DC /* BridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeClient.swift; sourceTree = "<group>"; };
+		8DFB831408A777B143C06659 /* ScheduleRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRunner.swift; sourceTree = "<group>"; };
+		906099173952B2A9B277AEA8 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		A62E09C79A3C562632816088 /* ReverieControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverieControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2462001DC243A533B26BC3C /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B396A98E4A1DD5C72047AE0B /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		B7701FBA2AD109C8ACF62E8F /* MassageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassageView.swift; sourceTree = "<group>"; };
+		BB57A28EE1513FBE9CD88F47 /* ReverieControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReverieControl.entitlements; sourceTree = "<group>"; };
+		CB118597BA9CEC9CD0B2A8E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DED520E06850B837C7408F58 /* BedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedController.swift; sourceTree = "<group>"; };
+		E813BBC59E2CCF981DC0E362 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		F77C9177D5BA0AE2CEA0241D /* ScheduleEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4B581A2962601F644CD99061 /* ReverieControl */ = {
+			isa = PBXGroup;
+			children = (
+				BB57A28EE1513FBE9CD88F47 /* ReverieControl.entitlements */,
+				74799F9CA6341B0F7F8D2A86 /* App */,
+				C6E241DE27171DAAF7FAA72A /* Bluetooth */,
+				D691A54D80A4AB2908E8CF43 /* Bridge */,
+				E50C38B74C8998D14CCCBC1A /* Scheduling */,
+				EC9864CA65769AAE9C3A15AC /* UI */,
+			);
+			path = ReverieControl;
+			sourceTree = "<group>";
+		};
+		674AC9C5D803881B4A6734DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62E09C79A3C562632816088 /* ReverieControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74799F9CA6341B0F7F8D2A86 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7944CB66A4EA2D11743EF855 /* ReverieControlApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C6E241DE27171DAAF7FAA72A /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				DED520E06850B837C7408F58 /* BedController.swift */,
+				906099173952B2A9B277AEA8 /* BLEManager.swift */,
+				259C18BA4B8E4BB45E011CAB /* ReverieProtocol.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		CD6E96D45A99A676948E34A7 = {
+			isa = PBXGroup;
+			children = (
+				4B581A2962601F644CD99061 /* ReverieControl */,
+				674AC9C5D803881B4A6734DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D691A54D80A4AB2908E8CF43 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				893269B5D1067D68F40514DC /* BridgeClient.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		E50C38B74C8998D14CCCBC1A /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				E813BBC59E2CCF981DC0E362 /* Schedule.swift */,
+				8DFB831408A777B143C06659 /* ScheduleRunner.swift */,
+			);
+			path = Scheduling;
+			sourceTree = "<group>";
+		};
+		EC9864CA65769AAE9C3A15AC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B396A98E4A1DD5C72047AE0B /* ControlView.swift */,
+				B7701FBA2AD109C8ACF62E8F /* MassageView.swift */,
+				B2462001DC243A533B26BC3C /* RootTabView.swift */,
+				F77C9177D5BA0AE2CEA0241D /* ScheduleEditView.swift */,
+				6C026B94BC832AB0235AE083 /* ScheduleListView.swift */,
+				CB118597BA9CEC9CD0B2A8E6 /* SettingsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7FFCA27FF1A6E4F7495EFE /* ReverieControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AFC7E38EDBBB25BB2173D9 /* Build configuration list for PBXNativeTarget "ReverieControl" */;
+			buildPhases = (
+				6476B4D283A15281914DB404 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverieControl;
+			packageProductDependencies = (
+			);
+			productName = ReverieControl;
+			productReference = A62E09C79A3C562632816088 /* ReverieControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DAACAF00B05BB907DFD550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = E616EC2A607C0746BB477055 /* Build configuration list for PBXProject "ReverieControl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD6E96D45A99A676948E34A7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 674AC9C5D803881B4A6734DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7FFCA27FF1A6E4F7495EFE /* ReverieControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6476B4D283A15281914DB404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C394C2265F7187E05A6FF845 /* BLEManager.swift in Sources */,
+				3C829F128C9B0C1DAD0FD87D /* BedController.swift in Sources */,
+				7D6E868FC73DD27C4438C33E /* BridgeClient.swift in Sources */,
+				6E4F42D28CDF69F40621007C /* ControlView.swift in Sources */,
+				28980370F3C83D576E9DAF09 /* MassageView.swift in Sources */,
+				E745BF184D9C1B807DA35E9B /* ReverieControlApp.swift in Sources */,
+				A842F2C42AF745BD269E4789 /* ReverieProtocol.swift in Sources */,
+				1F4A555E83BCC39E3A5774FC /* RootTabView.swift in Sources */,
+				BDBAB6908846FF2A789A887F /* Schedule.swift in Sources */,
+				CDDF9BD09A1039AFB658B34C /* ScheduleEditView.swift in Sources */,
+				910BFF2B3BCE88474522C02F /* ScheduleListView.swift in Sources */,
+				A9A0009CFB046D2ECA37D739 /* ScheduleRunner.swift in Sources */,
+				126F514BCE442388F518BFBF /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6519E5FB72F49A24C824EB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ReverieControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		8104CE271FA512AB8B51128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReverieControl/ReverieControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 696M9GC74E;
+				INFOPLIST_FILE = ReverieControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverie.ReverieControl;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6AE6CD3289E8FF68DD1D106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReverieControl/ReverieControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 696M9GC74E;
+				INFOPLIST_FILE = ReverieControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverie.ReverieControl;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2386C01E915DD6AF63D898B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ReverieControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AFC7E38EDBBB25BB2173D9 /* Build configuration list for PBXNativeTarget "ReverieControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AE6CD3289E8FF68DD1D106 /* Debug */,
+				8104CE271FA512AB8B51128A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E616EC2A607C0746BB477055 /* Build configuration list for PBXProject "ReverieControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6519E5FB72F49A24C824EB0B /* Debug */,
+				F2386C01E915DD6AF63D898B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DAACAF00B05BB907DFD550 /* Project object */;
+}
